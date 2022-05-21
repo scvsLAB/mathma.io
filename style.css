@@ -3,6 +3,10 @@ h1{
   background-color: #E6E6FA;
 }
 
+h2{
+  background-color: #e0ffff;
+}
+
 li{
   background-color: #FFF0F5;
 }
@@ -10,6 +14,10 @@ li{
 p{
   letter-spacing: 1px;
   border: 1px solid black;
+}
+
+.parent{
+	position:absolute;
 }
 
 .left{
