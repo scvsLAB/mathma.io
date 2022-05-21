@@ -1,3 +1,7 @@
-p {
-  color: red;
+h1 {
+  text-align: center;
+}
+p,li {
+  letter-spacing: 1px;
+  border: 1px solid black;
 }
