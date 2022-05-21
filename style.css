@@ -3,7 +3,7 @@ h1{
   background-color: #E6E6FA;
 }
 
-h2{
+h3{
   background-color: #e0ffff;
 }
 
@@ -23,15 +23,11 @@ p{
 .left{
 	position: relative;
 	float:left;
-	height: 350px;
-	width: 200px;
 	background-color: #F5F5DC;
 }
 
 .right{
 	position: relative;
 	float: left;
-	height: 350px;
-	width: 200px;
 	background-color: #FAEBD7;
 }
