@@ -1,7 +1,29 @@
-h1 {
+h1{
   text-align: center;
+  background-color: #E6E6FA;
 }
-p,li {
+
+li{
+  background-color: #FFF0F5;
+}
+
+p{
   letter-spacing: 1px;
   border: 1px solid black;
+}
+
+.left{
+	position: relative;
+	float:left;
+	height: 350px;
+	width: 200px;
+	background-color: #F5F5DC;
+}
+
+.right{
+	position: relative;
+	float: left;
+	height: 350px;
+	width: 200px;
+	background-color: #FAEBD7;
 }
