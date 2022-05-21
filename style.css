@@ -20,7 +20,7 @@ p{
 	position: relative;
 	float:left;
 	background-color: #F5F5DC;
-	margin: 5px;
+	padding: 0 20px 0 20px;;
 }
 
 .right{
@@ -28,5 +28,5 @@ p{
 	position: relative;
 	float: left;
 	background-color: #FAEBD7;
-	margin: 5px;
+	padding: 0 20px 0 20px;;
 }
