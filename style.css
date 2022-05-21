@@ -13,20 +13,17 @@ li{
 
 p{
   letter-spacing: 1px;
-  border: 1px solid black;
-}
-
-.parent{
-	position:absolute;
 }
 
 .left{
+	border: 1px solid black;
 	position: relative;
 	float:left;
 	background-color: #F5F5DC;
 }
 
 .right{
+	border: 1px solid black;
 	position: relative;
 	float: left;
 	background-color: #FAEBD7;
