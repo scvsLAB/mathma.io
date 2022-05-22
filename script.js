@@ -41,6 +41,8 @@ function change(){
 		document.getElementById('mess_1').style.visibility = 'hidden';
 		num=num+1;}
 	else{
+		document.getElementById('title_1').innerHTML='是在哈囉';
 		document.getElementById('question_1').innerHTML='就說沒有題目了還按';
+		document.getElementById('next').style.visibility = 'hidden';
 		document.getElementById('img_1').setAttribute ('src','03.jpg');}
 }
