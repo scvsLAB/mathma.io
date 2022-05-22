@@ -1,5 +1,3 @@
-document.getElementById('next').style.visibility = hidden;
-
 document.getElementById('check_1').onclick = function() {check()};
 function check(){
 	var x=document.getElementById('ans_1').value;
