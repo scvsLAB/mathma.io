@@ -14,13 +14,20 @@ p{
 .wrap{
   border: 3px solid black;
   display: flex;
-  width: 857px;
-  height: 200;
+  width: 800px;
+  height: 250;
   background: #F5F5DC;
   margin: 0 auto;}
 
 .content{
   display: flex;
-  width: 348px;
+  width: 400px;
   align-items: center;
   justify-content: center;}
+
+.figure{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
