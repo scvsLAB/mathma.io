@@ -31,6 +31,7 @@ function change(){
 		document.getElementById('question_1').innerHTML='請問下圖兩位哲學家是什麼關係？';
 		document.getElementById('img_1').setAttribute ('src','02.jpg')
 		document.getElementById('next').style.visibility = 'hidden';
+		document.getElementById('mess_1').innerHTML='你答對了嗎？';
 		num=num+1;}
 	else {
 		document.getElementById('title_1').innerHTML='恭喜過關！';
