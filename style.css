@@ -18,13 +18,12 @@ p{
 .wrap{
   border: 5px solid black;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .content{
   height: 200px;
   background: #b3d4d1;
   display: flex;
-  margin 10px;
+  align-items: center;
+  justify-content: center;
 }
