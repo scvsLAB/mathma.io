@@ -7,10 +7,6 @@ h1{
   background-color: #e0ffff;
 }
 
-li{
-  background-color: #FFF0F5;
-}
-
 p{
   letter-spacing: 1px;
 }
@@ -18,12 +14,14 @@ p{
 .wrap{
   border: 3px solid black;
   display: flex;
+  width: 857px;
   background: #b3d4d1;
   margin: 0 auto;
 }
 
 .content{
   display: flex;
+  width: 348px;
   align-items: center;
   justify-content: center;
 }
