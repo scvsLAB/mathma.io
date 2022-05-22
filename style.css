@@ -7,6 +7,10 @@ h1{
   background-color: #e0ffff;
 }
 
+li{
+  line-height: 120%;
+}
+
 p{
   letter-spacing: 1px;
 }
@@ -15,7 +19,7 @@ p{
   border: 3px solid black;
   display: flex;
   width: 857px;
-  background: #b3d4d1;
+  background: #F5F5DC;
   margin: 0 auto;
 }
 
