@@ -1,6 +1,4 @@
-function check() {
-  document.getElementById("check_1").click();
-}
+document.getElementById("check_1").onclick = function() {check()};
 
 function check(){
 	try{ 
