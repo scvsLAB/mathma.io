@@ -39,10 +39,8 @@ function change(){
 		document.getElementById('ans_1').style.display = 'none';
 		document.getElementById('check_1').style.display = 'none';
 		document.getElementById('mess_1').style.display = 'none';
-		document.getElementById('img_1').style.visibility = 'hidden'
 		num=num+1;}
 	else{
 		document.getElementById('question_1').innerHTML='就說沒有題目了還按';
 		document.getElementById('img_1').setAttribute ('src','03.jpg');
-		document.getElementById('img_1').style.visibility = 'visible'}
 }
