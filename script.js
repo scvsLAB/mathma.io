@@ -13,8 +13,6 @@ function check(){
 	}
 }
 
-var img = document.getElementById('img');
-
 document.getElementById('next').onclick = function() {change()};
 function change(){
 	var y=document.getElementById('mess_1').value;
@@ -22,5 +20,8 @@ function change(){
 		document.getElementById('title').innerHTML='問題2';
 		document.getElementById('question').innerHTML='請問下圖兩位哲學家是什麼關係？';
 		document.getElementById('img').setAttribute ('src','02.jpg')
+	}
+	else {
+		document.getElementById('mess_1').innerHTML='你還沒答對呢！';
 	}
 }
