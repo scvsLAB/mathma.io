@@ -42,5 +42,5 @@ function change(){
 		num=num+1;}
 	else{
 		document.getElementById('question_1').innerHTML='就說沒有題目了還按';
-		document.getElementById('img_1').setAttribute ('src','03.jpg');
+		document.getElementById('img_1').setAttribute ('src','03.jpg');}
 }
