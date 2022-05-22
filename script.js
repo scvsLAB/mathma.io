@@ -36,5 +36,7 @@ function change(){
 		document.getElementById('title_1').innerHTML='恭喜過關！';
 		document.getElementById('question_1').innerHTML='其實是沒有題目了呵呵';
 		document.getElementById('next').style.visibility = 'hidden';
-		document.getElementById('check_1').style.visibility = 'hidden';}
+		document.getElementById('ans_1').style.visibility = 'hidden';
+		document.getElementById('check_1').style.visibility = 'hidden';
+		document.getElementById('img_1').setAttribute ('src','03.jpg')}
 }
