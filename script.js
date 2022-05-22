@@ -28,7 +28,7 @@ document.getElementById('next').onclick = function() {change()};
 function change(){
 	if (num==1){
 		document.getElementById('title_1').innerHTML='<strong>問題2</strong>';
-		document.getElementById('question_1').innerHTML='請問下圖兩位哲學家是什麼關係？';
+		document.getElementById('question_1').innerHTML='請問左圖中兩位哲學家是什麼關係？';
 		document.getElementById('img_1').setAttribute ('src','02.jpg')
 		document.getElementById('next').style.visibility = 'hidden';
 		document.getElementById('ans_1').value='';
