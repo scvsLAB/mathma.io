@@ -1,4 +1,4 @@
-document.getElementById('next').style.visibility = false;
+document.getElementById('next').style.visibility = hidden;
 
 document.getElementById('check_1').onclick = function() {check()};
 function check(){
@@ -8,7 +8,7 @@ function check(){
 	}
 	else if (x=='雅典學院'){
 		document.getElementById('mess_1').innerHTML='答案正確^^';
-		document.getElementById('next').style.visibility = true;
+		document.getElementById('next').style.visibility = visible;
 	}
 	else{
 		document.getElementById('mess_1').innerHTML='答錯了QQ';
