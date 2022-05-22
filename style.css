@@ -15,9 +15,20 @@ p{
   letter-spacing: 1px;
 }
 
-.layout{
+.left{
 	border: 1px solid black;
 	position: relative;
+	float: left;
+	height: 350px;
+	width: 200px;
 	background-color: #F5F5DC;
-	padding: 0 10px 0 10px;
+}
+
+.right{
+	border: 1px solid black;
+	position: relative;
+	float: right;
+	height: 350px;
+	width: 200px;
+	background-color: #F5F5DC;
 }
