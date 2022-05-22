@@ -22,6 +22,6 @@ function change(){
 		document.getElementById('img').setAttribute ('src','02.jpg')
 	}
 	else {
-		document.getElementById('mess_1').innerHTML='你還沒答對呢！';
+		
 	}
 }
