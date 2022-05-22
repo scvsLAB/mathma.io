@@ -9,7 +9,7 @@
   <body style='background-color:#dcdcdc;'>
     <h1>哲學小學堂</h1>
     <div class='index'>
-      <h3 id='show'>範圍</h3>
+      <h3>範圍</h3>
       <ul>
         <li><strong>古希臘哲學</strong>：<a href='https://reurl.cc/o1y1e3'>參考連結</a></li>
         <li>中世紀哲學：<a href='https://reurl.cc/ZAVAN3'>參考連結</a></li>
@@ -18,30 +18,17 @@
       </ul>
     </div>
     
-    <div class='left'>
-      <h4>問題1</h4>
-      <p>請問下面這張畫作的名稱是？
+    <div class='layout'>
+      <h4 id='title'>問題1</h4>
+      <p id='question'>請問下面這張畫作的名稱是？
         <from>
           <input type='text' id='ans_1'>
           <button type='button' id='check_1'>作答</button>
           <p id='mess_1'>你答對了嗎？</p>
+          <button type='button' id='next'>下一題</button>
         </from>
         <br>
-        <img src='01.jpg' height='200' title='圖一' alt='無法顯示圖片QQ'>
-      </p>
-    </div>
-
-    <div class='right'>
-      <h4>問題2</h4>
-      <p>請問下圖兩位哲學家是什麼關係？
-        <from>
-          <input type='radio' name='relation'>父子
-          <input type='radio' name='relation'>叔姪
-          <input type='radio' name='relation'>師生
-          <input type='radio' name='relation'>敵人
-        </from>
-        <br><br>
-        <img src='02.jpg' height='205' title='圖二' alt='無法顯示圖片QQ'>
+        <img id='img' src='01.jpg' height='200' title='圖一' alt='無法顯示圖片QQ'>
       </p>
     </div>
     
