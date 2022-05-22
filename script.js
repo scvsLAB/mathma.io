@@ -8,7 +8,6 @@ function check(){
 		if(x!='雅典學院' && x!='') throw '答錯了QQ';
 	}
 	catch(err){
-		var y=document.getElementById('mess_1');
-		y.innerHTML=err;
+		document.getElementById('mess_1').innerHTML=err;
 	}
 }
