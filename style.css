@@ -6,14 +6,13 @@ h1{
   background-color: #e0ffff;}
 
 li{
-  line-height: 200%;
+  line-height: 180%;
   letter-spacing: 1px;}
 
 p{
   letter-spacing: 1px;}
 
 .wrap{
-  border: 3px solid black;
   display: flex;
   width: 800px;
   height: 250;
@@ -27,6 +26,7 @@ p{
   justify-content: center;}
 
 .figure{
+  border: 3px solid black;
   display: flex;
   width: 400px;
   align-items: center;
