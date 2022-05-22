@@ -15,20 +15,16 @@ p{
   letter-spacing: 1px;
 }
 
-.left{
-	border: 1px solid black;
-	position: relative;
-	float: left;
-	height: 350px;
-	width: 200px;
-	background-color: #F5F5DC;
+.wrap{
+  display: flex;
+  width: 857px;
+  margin: 0 auto;
 }
 
-.right{
-	border: 1px solid black;
-	position: relative;
-	float: right;
-	height: 350px;
-	width: 200px;
-	background-color: #F5F5DC;
+.content{
+  width: 348px;
+  background: #b3d4d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
