@@ -26,6 +26,5 @@ p{
 .content{
   display: flex;
   width: 348px;
-  align-items: center;
   justify-content: center;
 }
