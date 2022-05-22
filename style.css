@@ -17,12 +17,11 @@ p{
 
 .wrap{
   display: flex;
-  width: 857px;
   margin: 0 auto;
 }
 
 .content{
-  width: 348px;
+  height: 200px;
   background: #b3d4d1;
   display: flex;
   align-items: center;
