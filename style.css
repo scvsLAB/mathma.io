@@ -29,6 +29,7 @@ p{
   border: 3px solid black;
   display: flex;
   width: 400px;
+  background: #dcdcdc;
   align-items: center;
   justify-content: center;
 }
