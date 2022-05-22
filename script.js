@@ -1,3 +1,9 @@
+document.getElementById('show').onclick = function() {change()};
+
+function change(){
+	document.getElementById('show').innerHTML='粗體即現在範圍';
+}
+
 document.getElementById('check_1').onclick = function() {check()};
 
 function check(){
