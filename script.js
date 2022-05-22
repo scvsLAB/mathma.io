@@ -37,7 +37,7 @@ function change(){
 	else if(num==2){
 		document.getElementById('title_1').innerHTML='<strong>恭喜過關！</strong>';
 		document.getElementById('question_1').innerHTML='其實是沒有題目了呵呵';
-		document.getElementById('img_1').setAttribute ('src','0.jpg')
+		document.getElementById('img_1').setAttribute ('src','01.jpg')
 		document.getElementById('ans_1').style.visibility = 'hidden';
 		document.getElementById('check_1').style.visibility = 'hidden';
 		document.getElementById('mess_1').style.visibility = 'hidden';
